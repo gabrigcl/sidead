@@ -1,6 +1,6 @@
 # SideAd Advertisement
 
-Side banner advertisement component, that expands on mouseover, for web pages.
+Side banner advertisement component, that expands on mouseover.
 
 Author: Gabriel Castro
 
@@ -8,7 +8,7 @@ Author: Gabriel Castro
 
 You can use this in your site, adapt the source code and replace the images. The example is in index.html
 
-- Add the script of SideBanner in your html page:
+- Add the script of SideAd in your html page:
 
 ```html
 <script src="./src/index.js"></script>
@@ -19,7 +19,7 @@ You can use this in your site, adapt the source code and replace the images. The
 ```html
 <script>
     window.onload = function(){
-        SideBanner.init();
+        SideAd.init();
     }
 </script>
 ```
